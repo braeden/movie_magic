@@ -34,3 +34,7 @@ Captures a small slice from movie frames and combines to create a beautiful piec
 # Birdman
 
 ![Images](Images/Birdman.png)
+
+# Stargate
+
+![Images](Images/Stargate.png)
