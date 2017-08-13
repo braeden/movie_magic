@@ -1,4 +1,4 @@
-## Required Packages:
+# Required Packages:
 
 - VLC or FFMPEG
 - ImageMagick
@@ -8,7 +8,7 @@
 
 **Tested with Linux, should work universally**
 
-## Capture the intital frames: 
+# Capture the intital frames: 
 ### FFMEG (faster)
 `ffmpeg -i /path/to/movie/file.mp4 -vf "select=not(mod(n\,250))" -vsync vfr /path/to/output/scene%04d.png`
 - 250 can be replaced with the number of frames you'd like to skip before capturing again
@@ -24,7 +24,7 @@
 - **You can speed up the VLC window using the `]` key, but too much speed will cause it to drop frames**
 - **Don't use the same directory for input and output**
 
-## Shave the images down to a small strips:
+# Shave the images down to a small strips:
 
 `mogrify -path /output/folder/path -shave 49.9%x0 /input/folder/path/*.png`
 
@@ -33,7 +33,7 @@
 - Depending on the frame size, you may want to use a percentage like `49.95%` to crop in smaller
 - Last file path is for the input frames, same folder you used as VLC output
 
-## *ONLY IF USING VLC* - Rename files within directory to ensure that the correct combination order is met:
+# *ONLY IF USING VLC* - Rename files within directory to ensure that the correct combination order is met:
 
 *Purpose: add a 0 before VLC generated filenames for the lower frame numbers.*
 *Must be used to achieve a an ordered slice combination*
@@ -55,7 +55,7 @@
      - `python rename_with_zero.py`
 
 
-## Combine strips horizontally for final image:
+# Combine strips horizontally for final image:
 
 `convert +append /input/folder/with/strips/*.png /home/user/Pictures/output.png`
 
