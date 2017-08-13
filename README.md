@@ -3,4 +3,6 @@ Captures a small vertical section from the center of movie frames, every certain
 
 ## See [instructions.md](/instructions.md) to do it yourself.
 
+# Here's an example of "Captain Phillips"
+
 ![Here's an example of Captain Phillips](out1.png)
