@@ -1,5 +1,5 @@
 # movie_magic
-Captures a small slices or colors from movie frames and combines them to create a beautiful pieces of art.
+Captures small slices or average color strips from movie frames and combines them to create a beautiful pieces of art.
 
 -----
 
