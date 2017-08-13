@@ -8,7 +8,7 @@
 
 **Tested with Linux, should work universally**
 
-# Capture the intital frames: 
+# Capture the initial frames: 
 ### FFMEG (faster)
 `ffmpeg -i /path/to/movie/file.mp4 -vf "select=not(mod(n\,250))" -vsync vfr /path/to/output/scene%04d.png`
 - 250 can be replaced with the number of frames you'd like to skip before capturing again
