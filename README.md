@@ -11,6 +11,10 @@ Captures a small vertical section from the center of movie frames, every certain
 
 ![Image](Images/Apollo13.png)
 
+# Frozen
+
+![Image](Images/Frozen.png)
+
 # Guardians of the Galaxy
 
 ![Image](Images/guardians.png)
