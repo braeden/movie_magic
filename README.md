@@ -15,7 +15,7 @@ Captures a small slices or colors from movie frames and combines them to create 
 
 ![Image](Images/Apollo13.png)
 
-### Frozen (slices)
+### Frozen (vertical slices)
 
 ![Image](Images/Frozen.png)
 
