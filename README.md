@@ -1,46 +1,50 @@
 # movie_magic
 Captures a small slices or colors from movie frames and combines them to create a beautiful pieces of art.
 
-## See [instructions.md](/instructions.md) to do it yourself.
+-----
 
-# Here's an example of "Captain Phillips"
+# See [instructions.md](/instructions.md) to do it yourself.
+
+------
+# Examples:
+### Captain Phillips (slices)
 
 ![Here's an example of Captain Phillips](Images/CaptainPhillips.png)
 
-# Apollo 13 (slices)
+### Apollo 13 (slices)
 
 ![Image](Images/Apollo13.png)
 
-# Frozen (slices)
+### Frozen (slices)
 
 ![Image](Images/Frozen.png)
 
-# Big Hero 6 (color strips)
+### Big Hero 6 (color strips)
 
 <p align="center">
   <img src="Images/BigHero.png" alt="Image"/>
 </p>
 
-# Guardians of the Galaxy (slices)
+### Guardians of the Galaxy (slices)
 
 ![Image](Images/guardians.png)
 
-# Forest Gump (slices)
+### Forest Gump (slices)
 
 ![Images](Images/ForestGump.png)
  
-# Interstellar (slices)
+### Interstellar (slices)
 
 ![Images](Images/Interstellar.png)
 
-# Airplane (slices)
+### Airplane (slices)
 
 ![Images](Images/Airplane.png)
 
-# Birdman (slices)
+### Birdman (slices)
 
 ![Images](Images/Birdman.png)
 
-# Stargate (slices)
+### Stargate (slices)
 
 ![Images](Images/Stargate.png)
