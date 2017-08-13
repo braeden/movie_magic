@@ -1,6 +1,6 @@
 ## Required Packages:
 
-- VLC OR FFMEG
+- VLC or FFMPEG
 - ImageMagick
 - Python
 - Plus dependencies 
