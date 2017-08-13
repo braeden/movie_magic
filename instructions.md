@@ -30,6 +30,7 @@
 
 - `-path` flag is followed by the folder path to output the cropped frames to
 - `-shave` flag is followed by a percentage or # of pixels to crop from the `HORIZONTALxVERTICAL`
+- Change to `-shave 0x49%` to capture strips horizonally
 - Depending on the frame size, you may want to use a percentage like `49.95%` to crop in smaller
 - Last file path is for the input frames, same folder you used as VLC output
 
@@ -55,11 +56,11 @@
      - `python rename_with_zero.py`
 
 
-# Combine strips horizontally for final image:
+# Combine strips for final image:
 
 `convert +append /input/folder/with/strips/*.png /home/user/Pictures/output.png`
 
-- `+append` appends horizontally
+- `+append` appends horizontally, `-append` appends vertically 
 - First path is the input, and selects all of the PNGs in that folder, should contain all of the strips
 - Second path is a single image output
 - **If the final image turns out to be grayscale, try adding the flag `-colorspace RGB` or `colorspace CMY`**
