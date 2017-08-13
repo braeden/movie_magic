@@ -7,11 +7,11 @@
 - Plus dependencies 
 
 
-**Tested with Linux, should work universally**
+**Tested with Linux, should work universallywith a bit of work**
 
 ---------
 
-# Use the automated script
+# Use the automated script (for linux only)
 
 1. `wget https://raw.githubusercontent.com/braeden123/movie_magic/master/automate.py` **OR** save it from [here](https://raw.githubusercontent.com/braeden123/movie_magic/master/automate.py)
 
