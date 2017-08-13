@@ -17,7 +17,9 @@ Captures a small slices or colors from movie frames and combines them to create 
 
 # Big Hero 6 (color strips)
 
-![Image](Images/BigHero.png)
+<p align="center">
+  <img src="Images/BigHero.png" alt="Image"/>
+</p>
 
 # Guardians of the Galaxy (slices)
 
