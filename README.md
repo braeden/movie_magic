@@ -5,4 +5,4 @@ Captures a small vertical section from the center of movie frames, every certain
 
 # Here's an example of "Captain Phillips"
 
-![Here's an example of Captain Phillips](out1.png)
+![Here's an example of Captain Phillips](out3.png)
