@@ -7,22 +7,25 @@
 - Plus dependencies 
 
 
-**Tested with Linux, should work universallywith a bit of work**
+**Tested with Linux, should work universally with a bit of work**
 
 ---------
 
-# Use the automated script (for linux only)
+# Use the automated script 
+*Uses Unix only command structure*
 
 1. `wget https://raw.githubusercontent.com/braeden123/movie_magic/master/automate.py` **OR** save it from [here](https://raw.githubusercontent.com/braeden123/movie_magic/master/automate.py)
 
 2. `mv automate.py /target/with/movie` **OR** move it to the directory containing the movie file manually
 
-3. `python automate.py InsertMovieFilenameHere.mp4`
+3. `python automate.py InsertMovieFilenameHere.mp4 [--vertical]`
 
 - Will produce 4 folders and 2 output files
-- Output1.png uses the slicing method
-- Output2.png uses the color strip method
 - Does not use VLC, only FFmpeg
+- Use the `-v` or `--vertical` flag to capture and combine vertically
+- Editable variables in the top of the program change: frame delay, color strip sizes, frame slice percentages
+  - Outlined in file
+- You may delete the created folders once satisfied
 
 ---------
 # Customize the creation
