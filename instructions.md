@@ -11,8 +11,9 @@
 
 ---------
 
-# Use the automated script 
-*Uses Unix only command structure*
+# Use the automated [script](https://raw.githubusercontent.com/braeden123/movie_magic/master/automate.py)
+
+*Unix only command structure*
 
 1. `wget https://raw.githubusercontent.com/braeden123/movie_magic/master/automate.py` **OR** save it from [here](https://raw.githubusercontent.com/braeden123/movie_magic/master/automate.py)
 
