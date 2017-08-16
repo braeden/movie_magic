@@ -4,7 +4,7 @@ import argparse
 
 parser = argparse.ArgumentParser(
 	description="Automates the creation of strips and slices for movies",
-	formatter_class=argparse.ArgumentDefaultsHelpFormatter
+	formatter_class=argparse.ArgumentDefaultsHelpFormatter,
 	epilog="This program is built for Linux, may work for other OSes. All extranous folders can  be deleted after completion. Program retains the Image folder for speed if possible.")
 
 parser.add_argument("filepath", help="MUST BE SURROUNDED IN SINGLE QUOTES. Use the filepath to access your video for processing, eg. /path/to/file.mp4 or file.mp4")
