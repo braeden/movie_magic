@@ -17,9 +17,10 @@
 
 1. `wget https://raw.githubusercontent.com/braeden123/movie_magic/master/automate.py` **OR** save it from [here](https://raw.githubusercontent.com/braeden123/movie_magic/master/automate.py)
 
-2. `python automate.py /movie/path/FilenameHere.mp4 [-h] [-v] [-l ###] [-s ###] [-f ###] [p ##]`
+2. `python automate.py '/movie\ folder/path/FilenameHere.mp4' [-h] [-v] [-l ###] [-s ###] [-f ###] [p ##]`
 
 - Will produce 4 folders and 2 output files
+- **The filename/path must use bash escapes AND be surrounded in single quotes.**
 - Uses FFmpeg
 - **More detailed help is available with the `-h` or `--help` flags.**
 
