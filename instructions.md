@@ -1,6 +1,6 @@
 # Required Packages:
 
-- FFmpeg (perfered) or VLC
+- FFmpeg (prefered) or VLC
 - ImageMagick
   - Includes `convert` and `mogrify`
 - Python
